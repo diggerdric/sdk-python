@@ -37,7 +37,7 @@ def send_binary_cloud_event(url):
 
 
 def send_structured_cloud_event(url):
-    # This data defines a binary cloudevent
+    # This data defines a structured cloudevent
     attributes = {
         "type": "com.example.sampletype2",
         "source": "https://example.com/event-producer",
